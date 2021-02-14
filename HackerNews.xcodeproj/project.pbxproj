@@ -14,6 +14,7 @@
 		34699B7B25D9608900DC8551 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34699B7A25D9608900DC8551 /* NetworkManager.swift */; };
 		34699B7F25D9622B00DC8551 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34699B7E25D9622B00DC8551 /* PostData.swift */; };
 		34699B8325D9712600DC8551 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34699B8225D9712600DC8551 /* DetailView.swift */; };
+		34C664D025D974F7005B35DF /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C664CF25D974F7005B35DF /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		34699B7A25D9608900DC8551 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		34699B7E25D9622B00DC8551 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 		34699B8225D9712600DC8551 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		34C664CF25D974F7005B35DF /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 			children = (
 				34699B6B25D9582300DC8551 /* ContentView.swift */,
 				34699B8225D9712600DC8551 /* DetailView.swift */,
+				34C664CF25D974F7005B35DF /* WebView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 				34699B7B25D9608900DC8551 /* NetworkManager.swift in Sources */,
 				34699B7F25D9622B00DC8551 /* PostData.swift in Sources */,
 				34699B6C25D9582300DC8551 /* ContentView.swift in Sources */,
+				34C664D025D974F7005B35DF /* WebView.swift in Sources */,
 				34699B8325D9712600DC8551 /* DetailView.swift in Sources */,
 				34699B6A25D9582300DC8551 /* HackerNewsApp.swift in Sources */,
 			);

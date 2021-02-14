@@ -6,13 +6,14 @@
 //
 
 import SwiftUI
+import WebKit
 
 struct DetailView: View {
     
     let url: String?
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        WebView(urlString: url)
     }
 }
 
@@ -21,3 +22,4 @@ struct DetailView_Previews: PreviewProvider {
         DetailView(url: "https://www.google.com")
     }
 }
+
